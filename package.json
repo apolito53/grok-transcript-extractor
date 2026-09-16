@@ -1,0 +1,16 @@
+{
+  "name": "grok-transcript-extractor",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Turn public grok.com share links into clean Markdown or plain-text transcripts.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "node --watch local-server.mjs",
+    "start": "node local-server.mjs",
+    "test": "node --test",
+    "test:live": "node scripts/live-smoke.mjs"
+  }
+}

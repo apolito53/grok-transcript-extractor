@@ -1,0 +1,6 @@
+.git
+.vercel
+node_modules
+npm-debug.log
+docs
+test
